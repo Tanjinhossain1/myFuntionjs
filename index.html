@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-8xl	text-center	mt-16">That's do some <span class="text-rose-700  ">multiplication</span>!!</h1>
+      </header>
+      <main class= "mx-auto " >
+         <section class=" text-center grid">
+          <div class="mx-auto  bg-stone-900 p-4   w-3/4  mt-8  text-white">
+            <h1 class="text-5xl"><span id="number-box" >000</span> </h1>
+          </div>
+         
+         </section>
+          <!-- now its Withdrow and diposit section  -->
+            <section class=" flex justify-center ">
+              <div class="mx-auto bg-pink-100 	w-3/4 mt-16 p-8 ">
+                <form action="" class="text-center">
+                    <h2 class="text-3xl mb-4">Please Give only Number</h2>
+                  <div class="flex justify-center">
+                    <input id="double-input" class="mb-5 p-1 border-2 w-2/4 flex justify-center" type="text" placeholder="Give Numbers">
+                  </div>
+                </form>
+                <div class="flex justify-around">
+                <button onclick="double()" id="double-button" class="bg-rose-400 p-2 px-5 rounded	text-white font-semibold">Double </button>
+                <button id="triple-button" class="bg-rose-400 p-2 px-5 rounded	text-white font-semibold text-center " onclick="triple()" >Triple</button>
+               </div>
+          </div>
+            </section>
+      </main>
+     <script src="baperbank.js"></script>
+</body>
+</html>
